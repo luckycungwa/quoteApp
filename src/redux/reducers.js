@@ -1,6 +1,6 @@
-// reducers.js
 import { combineReducers } from 'redux';
 import { ADD_BOOKMARK, REMOVE_BOOKMARK } from './actions';
+
 
 // Reducer for bookmarkedQuotes
 const bookmarkedQuotes = (state = [], action) => {

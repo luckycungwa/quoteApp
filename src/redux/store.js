@@ -4,6 +4,7 @@ import bookmarkReducer from './bookmarkReducer';
 const rootReducer = combineReducers({
   // other reducers...
   bookmarkedQuotes: bookmarkReducer,
+  
 });
 
 const store = createStore(rootReducer);
